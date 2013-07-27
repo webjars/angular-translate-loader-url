@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-translate-loader-url</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.2</version>
     <name>angular-translate-loader-url</name>
     <description>WebJar for angular-translate-loader-url</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/angular-translate-loader-url</url>
         <connection>scm:git:https://github.com/webjars/angular-translate-loader-url.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-translate-loader-url.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angular-translate-loader-url-0.1.2</tag>
     </scm>
     
     <dependencies>
