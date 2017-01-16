@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-translate-loader-url</artifactId>
-    <version>2.13.1-SNAPSHOT</version>
+    <version>2.13.1</version>
     <name>angular-translate-loader-url</name>
     <description>WebJar for angular-translate-loader-url</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/angular-translate-loader-url</url>
         <connection>scm:git:https://github.com/webjars/angular-translate-loader-url.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-translate-loader-url.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angular-translate-loader-url-2.13.1</tag>
     </scm>
     
     <dependencies>
@@ -89,9 +89,9 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/angular-translate-loader-url.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/angular-translate-loader-url.min.js" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/angular-translate-loader-url.js" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-translate-loader-url.min.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
